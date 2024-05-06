@@ -2,6 +2,52 @@ body {
   background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
 h1 {
-  font-family: "Cormorant Infant", serif;
+  font-family: "Palanquin Dark", sans-serif;
   font-weight: 700;
+  font-size: 60px;
+  border: 2px solid green;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+h2 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 10px;
+  color: #0d35d8;
+  text-shadow: 1px 1px 2px pink;
+}
+p {
+  font-family: "Delicious Handrawn", cursive;
+  text-align: center;
+  font-size: 38px;
+}
+h3 {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 35px;
+  color: #0d35d8;
+  text-decoration: underline;
+}
+li {
+  font-size: 30px;
+  font-family: "Delicious Handrawn", cursive;
+}
+span.emoji {
+  color: #0d35d8;
+}
+
+.pictures {
+  border: 2px solid green;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.tips-tricks {
+  border: 3px solid green;
+  border-radius: 20px;
 }
