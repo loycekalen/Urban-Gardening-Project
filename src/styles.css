@@ -50,7 +50,7 @@ li.nav-item {
   font-family: "Patrick Hand", cursive;
 }
 .navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
-  color: red;
+  color: rgb(185, 8, 8);
 }
 
 button {
@@ -80,4 +80,10 @@ div.icons a {
 }
 div.icons a:hover {
   color: red;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px;
+  }
 }
