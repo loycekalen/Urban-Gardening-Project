@@ -64,6 +64,10 @@ button {
   font-size: 30px;
   font-family: "Palanquin Dark", sans-serif;
 }
+button:hover {
+  color: black;
+  text-decoration: underline;
+}
 
 .pictures {
   border: 2px solid green;
