@@ -49,20 +49,20 @@ li {
 li.nav-item {
   font-family: "Patrick Hand", cursive;
 }
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  color: red;
+}
 
 button {
   display: block;
   margin: 0 auto;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 10px;
-  background-color: green;
+  background-color: #fc057c;
   color: white;
   font-size: 30px;
   font-family: "Palanquin Dark", sans-serif;
-}
-span.emoji {
-  color: #0d35d8;
 }
 
 .pictures {
@@ -74,4 +74,10 @@ span.emoji {
 .tips-tricks {
   border: 3px solid green;
   border-radius: 20px;
+}
+div.icons a {
+  font-size: 35px;
+}
+div.icons a:hover {
+  color: red;
 }
